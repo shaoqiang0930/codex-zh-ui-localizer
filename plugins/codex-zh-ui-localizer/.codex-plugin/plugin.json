@@ -1,0 +1,36 @@
+{
+  "name": "codex-zh-ui-localizer",
+  "version": "1.0.0",
+  "description": "一键把已安装的 Codex 技能与插件界面名称和介绍翻译为中文，并配置未来的自动中文维护。",
+  "author": {
+    "name": "SQQ",
+    "url": "https://github.com/shaoqiang0930"
+  },
+  "homepage": "https://github.com/shaoqiang0930/codex-zh-ui-localizer",
+  "repository": "https://github.com/shaoqiang0930/codex-zh-ui-localizer",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "plugin",
+    "chinese",
+    "localization",
+    "ui",
+    "中文"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "中文界面维护 codex-zh-ui-localizer",
+    "shortDescription": "技能与插件界面一键中文化",
+    "longDescription": "把本机已安装的 Codex 技能和插件 UI 元数据翻译为中文，保留内部英文标识符，并写入全局规则与每周自动维护任务。安装后执行 setup-zh-ui 即可完成配置。",
+    "developerName": "SQQ",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "websiteURL": "https://github.com/shaoqiang0930/codex-zh-ui-localizer",
+    "defaultPrompt": [
+      "Use $setup-zh-ui to apply Chinese UI labels to Codex skills and plugins.",
+      "请安装并执行中文界面维护插件。"
+    ]
+  }
+}

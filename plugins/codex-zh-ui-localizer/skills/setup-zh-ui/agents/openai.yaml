@@ -1,0 +1,4 @@
+interface:
+  display_name: "中文界面维护 setup-zh-ui"
+  short_description: "一键把已安装技能与插件界面改为中文并配置每周维护"
+  default_prompt: "Use $setup-zh-ui to apply Chinese UI localization for Codex skills and plugins."

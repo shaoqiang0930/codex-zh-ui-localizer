@@ -1,0 +1,20 @@
+{
+  "name": "codex-zh-ui-localizer",
+  "interface": {
+    "displayName": "中文界面维护市场"
+  },
+  "plugins": [
+    {
+      "name": "codex-zh-ui-localizer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex-zh-ui-localizer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
